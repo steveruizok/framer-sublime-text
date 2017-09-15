@@ -1,0 +1,18 @@
+# Development
+# =============================
+
+*.sublime-project
+*.sublime-workspace
+*.cache
+node_modules/
+
+images.cache
+schemes/*.YAML-tmTheme
+sources/schemes/scheme.tmTheme
+build/
+
+
+# OS
+# =============================
+
+.DS_Store
