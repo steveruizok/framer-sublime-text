@@ -1,6 +1,6 @@
 # Framer Sublime Text Theme
 
-A Sublime Text 3 theme package based on Framer.
+A Sublime Text 3 theme package based on (Framer)[http://www.framer.com]'s editor.
 
 It includes:
 * a UI theme
@@ -9,9 +9,7 @@ It includes:
 
 ## Installation
 
-Open your Packages folder. (Preferences > Browse Packages)
-
-Place the Framer Sublime folder in your Packages folder
+Place the Framer Sublime folder in your Packages folder. (Preferences > Browse Packages)
 
 Select the Framer CoffeeScript syntax. 
 (View > Syntax > Framer CoffeeScript)
@@ -24,7 +22,7 @@ Select the Framer Sublime color scheme.
 
 ## Settings
 
-If you want to complete the look, add the following lines to your Preferences:
+If you want to complete the look, add the following lines to your User Settings. (Preferences > Settings)
 
 ```json
 
