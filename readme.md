@@ -2,10 +2,13 @@
 
 A Sublime Text 3 theme package based on [Framer](http://www.framer.com)'s editor.
 
+![Screenshot](./screenshot.png?raw=true "Screenshot")
+
 It includes:
 * a UI theme
 * a color theme
 * a custom CoffeeScript syntax
+
 
 ## Installation
 
