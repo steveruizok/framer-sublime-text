@@ -10,8 +10,8 @@
     
     {
       "class": "title_bar",
-      "fg": [97, 97, 97],
-      "bg": [225, 224, 226]
+      "fg": [80, 80, 80],
+      "bg": [225, 224, 226],
     },
 
     //     .d8888. d888888b d8888b. d88888b      d8888b.  .d8b.  d8888b.
@@ -37,8 +37,8 @@
     {
       "class": "sidebar_tree",
       "row_padding": [8, 8],
-      "indent": 0,
-      "indent_offset": 8,
+      "indent": -22,
+      "indent_offset": 16,
       "indent_top_level": false,
       "layer0.tint": [20, 20, 20],
       "layer0.opacity": 1.0,
@@ -526,17 +526,6 @@
         "layer0.texture": "Framer Sublime/common/dark/fold_opened.png",
     },
     {
-        "class": "fold_button_control",
-        "parents": [{"class": "text_area_control", "attributes": ["file_light"]}],
-        "layer0.texture": "Framer Sublime/common/dark/fold_closed.png",
-    },
-    {
-        "class": "fold_button_control",
-        "parents": [{"class": "text_area_control", "attributes": ["file_light"]}],
-        "attributes": ["expanded"],
-        "layer0.texture": "Framer Sublime/common/dark/fold_opened.png",
-    },
-    {
         "class": "popup_control",
         "layer0.tint": [20, 20, 20],
         "layer0.opacity": 1.0
@@ -571,7 +560,6 @@
         "match_fg": [144, 144, 144, 1],
         "selected_fg": [255, 255, 255, 1],
         "selected_match_fg": [255, 255, 255, 1],
-        // "fg_blend": true 0
     },
     {
         "class": "table_row",
@@ -580,7 +568,14 @@
         "layer2.opacity": 1,
     },
 
-    // Panels
+    //     d8888b.  .d8b.  d8b   db d88888b db      .d8888.
+    //     88  `8D d8' `8b 888o  88 88'     88      88'  YP
+    //     88oodD' 88ooo88 88V8o 88 88ooooo 88      `8bo.
+    //     88~~~   88~~~88 88 V8o88 88~~~~~ 88        `Y8b.
+    //     88      88   88 88  V888 88.     88booo. db   8D
+    //     88      YP   YP VP   V8P Y88888P Y88888P `8888Y'
+    //
+    //
     {
         "class": "panel_control",
         "layer0.tint": [20, 20, 20],
@@ -1093,7 +1088,7 @@
         "layer1.opacity": 1,
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 1, 0, 0],
-        "content_margin": [8, 4, 8, 4]
+        "content_margin": [8, 12, 8, 10]
     },
     {
         "class": "panel_button_control",
