@@ -1,5 +1,12 @@
 [
-    // Title bar
+    //     d888888b d888888b d888888b db      d88888b      d8888b.  .d8b.  d8888b.
+    //     `~~88~~'   `88'   `~~88~~' 88      88'          88  `8D d8' `8b 88  `8D
+    //        88       88       88    88      88ooooo      88oooY' 88ooo88 88oobY'
+    //        88       88       88    88      88~~~~~      88~~~b. 88~~~88 88`8b
+    //        88      .88.      88    88booo. 88.          88   8D 88   88 88 `88.
+    //        YP    Y888888P    YP    Y88888P Y88888P      Y8888P' YP   YP 88   YD
+    //
+    //
     
     {
       "class": "title_bar",
@@ -7,7 +14,14 @@
       "bg": [225, 224, 226]
     },
 
-    // Side Bar
+    //     .d8888. d888888b d8888b. d88888b      d8888b.  .d8b.  d8888b.
+    //     88'  YP   `88'   88  `8D 88'          88  `8D d8' `8b 88  `8D
+    //     `8bo.      88    88   88 88ooooo      88oooY' 88ooo88 88oobY'
+    //       `Y8b.    88    88   88 88~~~~~      88~~~b. 88~~~88 88`8b
+    //     db   8D   .88.   88  .8D 88.          88   8D 88   88 88 `88.
+    //     `8888Y' Y888888P Y8888D' Y88888P      Y8888P' YP   YP 88   YD
+    //
+    //
     {
       "class": "sidebar_container",
       "layer0.tint": [20, 20, 20],
@@ -76,7 +90,14 @@
         "font.bold": false
     },
 
-    // Open Files Icons
+    //      .d88b.  d8888b. d88888b d8b   db      d88888b d888888b db      d88888b .d8888.      d888888b  .o88b.  .d88b.  d8b   db .d8888.
+    //     .8P  Y8. 88  `8D 88'     888o  88      88'       `88'   88      88'     88'  YP        `88'   d8P  Y8 .8P  Y8. 888o  88 88'  YP
+    //     88    88 88oodD' 88ooooo 88V8o 88      88ooo      88    88      88ooooo `8bo.           88    8P      88    88 88V8o 88 `8bo.
+    //     88    88 88~~~   88~~~~~ 88 V8o88      88~~~      88    88      88~~~~~   `Y8b.         88    8b      88    88 88 V8o88   `Y8b.
+    //     `8b  d8' 88      88.     88  V888      88        .88.   88booo. 88.     db   8D        .88.   Y8b  d8 `8b  d8' 88  V888 db   8D
+    //      `Y88P'  88      Y88888P VP   V8P      YP      Y888888P Y88888P Y88888P `8888Y'      Y888888P  `Y88P'  `Y88P'  VP   V8P `8888Y'
+    //
+    //
     {
         "class": "close_button",
         "layer0.texture": "Framer Sublime/common/dark/open_file_close.png",
@@ -100,7 +121,14 @@
         "layer0.texture": "Framer Sublime/common/dark/open_file_close.png",
     },
 
-    // Folder & File Icons
+    //     d88888b  .d88b.  db      d8888b. d88888b d8888b.      .d888b.       d88888b d888888b db      d88888b      d888888b  .o88b.  .d88b.  d8b   db .d8888.
+    //     88'     .8P  Y8. 88      88  `8D 88'     88  `8D      8P   8D       88'       `88'   88      88'            `88'   d8P  Y8 .8P  Y8. 888o  88 88'  YP
+    //     88ooo   88    88 88      88   88 88ooooo 88oobY'      `Vb d8'       88ooo      88    88      88ooooo         88    8P      88    88 88V8o 88 `8bo.
+    //     88~~~   88    88 88      88   88 88~~~~~ 88`8b         d88C dD      88~~~      88    88      88~~~~~         88    8b      88    88 88 V8o88   `Y8b.
+    //     88      `8b  d8' 88booo. 88  .8D 88.     88 `88.      C8' d8D       88        .88.   88booo. 88.            .88.   Y8b  d8 `8b  d8' 88  V888 db   8D
+    //     YP       `Y88P'  Y88888P Y8888D' Y88888P 88   YD      `888P Yb      YP      Y888888P Y88888P Y88888P      Y888888P  `Y88P'  `Y88P'  VP   V8P `8888Y'
+    //
+    //
     {
         "class": "disclosure_button_control",
         "layer0.texture": "Framer Sublime/common/dark/disclosure_unexpanded.png",
@@ -175,11 +203,18 @@
         "content_margin": [9, 8]
     },
 
-    // Tabs
+    //     d888888b  .d8b.  d8888b. .d8888.
+    //     `~~88~~' d8' `8b 88  `8D 88'  YP
+    //        88    88ooo88 88oooY' `8bo.
+    //        88    88~~~88 88~~~b.   `Y8b.
+    //        88    88   88 88   8D db   8D
+    //        YP    YP   YP Y8888P' `8888Y'
+    //
+    //
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "layer0.tint": [20, 20, 20],
+        "layer0.tint": [0, 0, 0],
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.draw_center": true,
 
@@ -377,7 +412,14 @@
         "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" }
     },
 
-    // Quick Panel
+    //      .d88b.  db    db d888888b  .o88b. db   dD      d8888b.  .d8b.  d8b   db d88888b db
+    //     .8P  Y8. 88    88   `88'   d8P  Y8 88 ,8P'      88  `8D d8' `8b 888o  88 88'     88
+    //     88    88 88    88    88    8P      88,8P        88oodD' 88ooo88 88V8o 88 88ooooo 88
+    //     88    88 88    88    88    8b      88`8b        88~~~   88~~~88 88 V8o88 88~~~~~ 88
+    //     `8P  d8' 88b  d88   .88.   Y8b  d8 88 `88.      88      88   88 88  V888 88.     88booo.
+    //      `Y88'Y8 ~Y8888P' Y888888P  `Y88P' YP   YD      88      YP   YP VP   V8P Y88888P Y88888P
+    //
+    //
     {
         "class": "overlay_control",
         "layer0.tint": [20, 20, 20],
@@ -435,7 +477,14 @@
         "selected_match_fg": [69, 74, 85]
     },
 
-    // Views
+    //     db    db d888888b d88888b db   d8b   db .d8888.
+    //     88    88   `88'   88'     88   I8I   88 88'  YP
+    //     Y8    8P    88    88ooooo 88   I8I   88 `8bo.
+    //     `8b  d8'    88    88~~~~~ Y8   I8I   88   `Y8b.
+    //      `8bd8'    .88.   88.     `8b d8'8b d8' db   8D
+    //        YP    Y888888P Y88888P  `8b8' `8d8'  `8888Y'
+    //
+    //
     {
         "class": "grid_layout_control",
         "border_color": ["background", 45, 45, 45, 1],
@@ -565,7 +614,14 @@
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
     },
 
-    // Dialogs
+    //     d8888b. d888888b  .d8b.  db       .d88b.   d888b  .d8888.
+    //     88  `8D   `88'   d8' `8b 88      .8P  Y8. 88' Y8b 88'  YP
+    //     88   88    88    88ooo88 88      88    88 88      `8bo.
+    //     88   88    88    88~~~88 88      88    88 88  ooo   `Y8b.
+    //     88  .8D   .88.   88   88 88booo. `8b  d8' 88. ~8~ db   8D
+    //     Y8888D' Y888888P YP   YP Y88888P  `Y88P'   Y888P  `8888Y'
+    //
+    //
     {
         "class": "dialog",
         "layer0.tint": [20, 20, 20],
@@ -583,7 +639,14 @@
         "content_margin": [0, 6]
     },
 
-    // Scroll Bars
+    //     .d8888.  .o88b. d8888b.  .d88b.  db      db           d8888b.  .d8b.  d8888b. .d8888.
+    //     88'  YP d8P  Y8 88  `8D .8P  Y8. 88      88           88  `8D d8' `8b 88  `8D 88'  YP
+    //     `8bo.   8P      88oobY' 88    88 88      88           88oooY' 88ooo88 88oobY' `8bo.
+    //       `Y8b. 8b      88`8b   88    88 88      88           88~~~b. 88~~~88 88`8b     `Y8b.
+    //     db   8D Y8b  d8 88 `88. `8b  d8' 88booo. 88booo.      88   8D 88   88 88 `88. db   8D
+    //     `8888Y'  `Y88P' 88   YD  `Y88P'  Y88888P Y88888P      Y8888P' YP   YP 88   YD `8888Y'
+    //
+    //
     {
         "class": "scroll_area_control",
         "settings": ["overlay_scroll_bars"],
@@ -634,7 +697,15 @@
         "layer0.opacity": 1.0,
         "tint_index": 0
     },
-    // Scroll Bars (Horizontal)
+
+    //     .d8888.  .o88b. d8888b.  .d88b.  db      db           d8888b.  .d8b.  d8888b. .d8888.          dD db   db  .d88b.  d8888b. d888888b d88888D  .d88b.  d8b   db d888888b  .d8b.  db      Cb
+    //     88'  YP d8P  Y8 88  `8D .8P  Y8. 88      88           88  `8D d8' `8b 88  `8D 88'  YP        d8'  88   88 .8P  Y8. 88  `8D   `88'   YP  d8' .8P  Y8. 888o  88 `~~88~~' d8' `8b 88       `8b
+    //     `8bo.   8P      88oobY' 88    88 88      88           88oooY' 88ooo88 88oobY' `8bo.         d8    88ooo88 88    88 88oobY'    88       d8'  88    88 88V8o 88    88    88ooo88 88         8b
+    //       `Y8b. 8b      88`8b   88    88 88      88           88~~~b. 88~~~88 88`8b     `Y8b.      C88    88~~~88 88    88 88`8b      88      d8'   88    88 88 V8o88    88    88~~~88 88         88D
+    //     db   8D Y8b  d8 88 `88. `8b  d8' 88booo. 88booo.      88   8D 88   88 88 `88. db   8D       V8    88   88 `8b  d8' 88 `88.   .88.    d8' db `8b  d8' 88  V888    88    88   88 88booo.    8P
+    //     `8888Y'  `Y88P' 88   YD  `Y88P'  Y88888P Y88888P      Y8888P' YP   YP 88   YD `8888Y'        V8.  YP   YP  `Y88P'  88   YD Y888888P d88888P  `Y88P'  VP   V8P    YP    YP   YP Y88888P  .8P
+    //                                                                                                    VD                                                                                      CP
+    //
     {
         "class": "scroll_track_control",
         "attributes": ["horizontal"],
@@ -647,7 +718,15 @@
         "layer0.texture": "Framer Sublime/common/dark/scroll_puck_horiz.png",
         "content_margin": [12, 0]
     },
-    // Scroll Bars (Sidebar)
+
+    //     .d8888.  .o88b. d8888b.  .d88b.  db      db           d8888b.  .d8b.  d8888b. .d8888.          dD .d8888. d888888b d8888b. d88888b d8888b.  .d8b.  d8888b. Cb
+    //     88'  YP d8P  Y8 88  `8D .8P  Y8. 88      88           88  `8D d8' `8b 88  `8D 88'  YP        d8'  88'  YP   `88'   88  `8D 88'     88  `8D d8' `8b 88  `8D  `8b
+    //     `8bo.   8P      88oobY' 88    88 88      88           88oooY' 88ooo88 88oobY' `8bo.         d8    `8bo.      88    88   88 88ooooo 88oooY' 88ooo88 88oobY'    8b
+    //       `Y8b. 8b      88`8b   88    88 88      88           88~~~b. 88~~~88 88`8b     `Y8b.      C88      `Y8b.    88    88   88 88~~~~~ 88~~~b. 88~~~88 88`8b      88D
+    //     db   8D Y8b  d8 88 `88. `8b  d8' 88booo. 88booo.      88   8D 88   88 88 `88. db   8D       V8    db   8D   .88.   88  .8D 88.     88   8D 88   88 88 `88.    8P
+    //     `8888Y'  `Y88P' 88   YD  `Y88P'  Y88888P Y88888P      Y8888P' YP   YP 88   YD `8888Y'        V8.  `8888Y' Y888888P Y8888D' Y88888P Y8888P' YP   YP 88   YD  .8P
+    //                                                                                                    VD                                                          CP
+    //
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "sidebar_container"}],
@@ -685,14 +764,30 @@
         "attributes": ["horizontal"],
         "layer0.texture": "Framer Sublime/default/sidebar_scroll_puck_horiz.png"
     },
-    // Scroll Bars (Switch Project)
+    
+    //     .d8888.  .o88b. d8888b.  .d88b.  db      db           d8888b.  .d8b.  d8888b. .d8888.          dD .d8888. db   d8b   db d888888b d888888b  .o88b. db   db      d8888b. d8888b.  .d88b.     d88b d88888b  .o88b. d888888b Cb
+    //     88'  YP d8P  Y8 88  `8D .8P  Y8. 88      88           88  `8D d8' `8b 88  `8D 88'  YP        d8'  88'  YP 88   I8I   88   `88'   `~~88~~' d8P  Y8 88   88      88  `8D 88  `8D .8P  Y8.    `8P' 88'     d8P  Y8 `~~88~~'  `8b
+    //     `8bo.   8P      88oobY' 88    88 88      88           88oooY' 88ooo88 88oobY' `8bo.         d8    `8bo.   88   I8I   88    88       88    8P      88ooo88      88oodD' 88oobY' 88    88     88  88ooooo 8P         88       8b
+    //       `Y8b. 8b      88`8b   88    88 88      88           88~~~b. 88~~~88 88`8b     `Y8b.      C88      `Y8b. Y8   I8I   88    88       88    8b      88~~~88      88~~~   88`8b   88    88     88  88~~~~~ 8b         88       88D
+    //     db   8D Y8b  d8 88 `88. `8b  d8' 88booo. 88booo.      88   8D 88   88 88 `88. db   8D       V8    db   8D `8b d8'8b d8'   .88.      88    Y8b  d8 88   88      88      88 `88. `8b  d8' db. 88  88.     Y8b  d8    88       8P
+    //     `8888Y'  `Y88P' 88   YD  `Y88P'  Y88888P Y88888P      Y8888P' YP   YP 88   YD `8888Y'        V8.  `8888Y'  `8b8' `8d8'  Y888888P    YP     `Y88P' YP   YP      88      88   YD  `Y88P'  Y8888P  Y88888P  `Y88P'    YP     .8P
+    //                                                                                                    VD                                                                                                                        CP
+    //
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "switch_project_window"}],
         "layer0.tint": [235, 237, 239],
         "tint_index": -1
     },
-    // Scroll Bars (Overlay)
+
+    //     .d8888.  .o88b. d8888b.  .d88b.  db      db           d8888b.  .d8b.  d8888b. .d8888.          dD  .d88b.  db    db d88888b d8888b. db       .d8b.  db    db Cb
+    //     88'  YP d8P  Y8 88  `8D .8P  Y8. 88      88           88  `8D d8' `8b 88  `8D 88'  YP        d8'  .8P  Y8. 88    88 88'     88  `8D 88      d8' `8b `8b  d8'  `8b
+    //     `8bo.   8P      88oobY' 88    88 88      88           88oooY' 88ooo88 88oobY' `8bo.         d8    88    88 Y8    8P 88ooooo 88oobY' 88      88ooo88  `8bd8'     8b
+    //       `Y8b. 8b      88`8b   88    88 88      88           88~~~b. 88~~~88 88`8b     `Y8b.      C88    88    88 `8b  d8' 88~~~~~ 88`8b   88      88~~~88    88       88D
+    //     db   8D Y8b  d8 88 `88. `8b  d8' 88booo. 88booo.      88   8D 88   88 88 `88. db   8D       V8    `8b  d8'  `8bd8'  88.     88 `88. 88booo. 88   88    88       8P
+    //     `8888Y'  `Y88P' 88   YD  `Y88P'  Y88888P Y88888P      Y8888P' YP   YP 88   YD `8888Y'        V8.   `Y88P'     YP    Y88888P 88   YD Y88888P YP   YP    YP     .8P
+    //                                                                                                    VD                                                            CP
+    //
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "overlay_control"}],
@@ -710,7 +805,14 @@
         "layer0.texture": "Framer Sublime/default/sidebar_scroll_puck.png",
     },
 
-    // Inputs
+    //     d888888b d8b   db d8888b. db    db d888888b .d8888.
+    //       `88'   888o  88 88  `8D 88    88 `~~88~~' 88'  YP
+    //        88    88V8o 88 88oodD' 88    88    88    `8bo.
+    //        88    88 V8o88 88~~~   88    88    88      `Y8b.
+    //       .88.   88  V888 88      88b  d88    88    db   8D
+    //     Y888888P VP   V8P 88      ~Y8888P'    YP    `8888Y'
+    //
+    //
     {
         "class": "text_line_control",
         "layer0.tint": [30,30,30],
@@ -734,7 +836,14 @@
         "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
     },
 
-    // Buttons
+    //     d8888b. db    db d888888b d888888b  .d88b.  d8b   db .d8888.
+    //     88  `8D 88    88 `~~88~~' `~~88~~' .8P  Y8. 888o  88 88'  YP
+    //     88oooY' 88    88    88       88    88    88 88V8o 88 `8bo.
+    //     88~~~b. 88    88    88       88    88    88 88 V8o88   `Y8b.
+    //     88   8D 88b  d88    88       88    `8b  d8' 88  V888 db   8D
+    //     Y8888P' ~Y8888P'    YP       YP     `Y88P'  VP   V8P `8888Y'
+    //
+    //
     {
         "class": "button_control",
         "layer0.tint": [20,20,20],
@@ -921,7 +1030,14 @@
         "layer0.opacity": 0.9,
     },
 
-    // Labels
+    //     db       .d8b.  d8888b. d88888b db      .d8888.
+    //     88      d8' `8b 88  `8D 88'     88      88'  YP
+    //     88      88ooo88 88oooY' 88ooooo 88      `8bo.
+    //     88      88~~~88 88~~~b. 88~~~~~ 88        `Y8b.
+    //     88booo. 88   88 88   8D 88.     88booo. db   8D
+    //     Y88888P YP   YP Y8888P' Y88888P Y88888P `8888Y'
+    //
+    //
     {
         "class": "label_control",
         "fg": [128, 128, 128],
@@ -937,7 +1053,14 @@
         "parents": [{"class": "button_control"}],
     },
 
-    // Tool tips
+    //     d888888b  .d88b.   .d88b.  db           d888888b d888888b d8888b. .d8888.
+    //     `~~88~~' .8P  Y8. .8P  Y8. 88           `~~88~~'   `88'   88  `8D 88'  YP
+    //        88    88    88 88    88 88              88       88    88oodD' `8bo.
+    //        88    88    88 88    88 88              88       88    88~~~     `Y8b.
+    //        88    `8b  d8' `8b  d8' 88booo.         88      .88.   88      db   8D
+    //        YP     `Y88P'   `Y88P'  Y88888P         YP    Y888888P 88      `8888Y'
+    //
+    //
     {
         "class": "tool_tip_control",
         "layer0.tint": [20, 20, 20],
@@ -954,7 +1077,14 @@
         "fg": [128, 128, 128]
     },
 
-    // Status Bar
+    //     .d8888. d888888b  .d8b.  d888888b db    db .d8888.      d8888b.  .d8b.  d8888b.
+    //     88'  YP `~~88~~' d8' `8b `~~88~~' 88    88 88'  YP      88  `8D d8' `8b 88  `8D
+    //     `8bo.      88    88ooo88    88    88    88 `8bo.        88oooY' 88ooo88 88oobY'
+    //       `Y8b.    88    88~~~88    88    88    88   `Y8b.      88~~~b. 88~~~88 88`8b
+    //     db   8D    88    88   88    88    88b  d88 db   8D      88   8D 88   88 88 `88.
+    //     `8888Y'    YP    YP   YP    YP    ~Y8888P' `8888Y'      Y8888P' YP   YP 88   YD
+    //
+    //
     {
         "class": "status_bar",
         "layer0.tint": [30, 30, 30],
