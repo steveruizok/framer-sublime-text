@@ -10,16 +10,15 @@
     // Side Bar
     {
       "class": "sidebar_container",
-      "layer0.tint": [0, 0, 0],
+      "layer0.tint": [20, 20, 20],
+      "layer0.inner_margin": [0, 0, 1, 0],
       "layer0.opacity": 1.0,
-      "layer1.tint": [45,45,45],
-      "layer1.inner_margin": [0, 0],
       "layer1.opacity": 1.0,
+      "layer1.tint": [45, 45, 45],
+      "layer1.draw_center": false,
+      "layer1.inner_margin": [0, 0, 1, 0],
       "layer2.tint": [0,0,0],
-      "layer2.opacity": 1,
-      "layer2.inner_margin": [0, 27, 0, 0],
-      "layer2.draw_center": false,
-      "content_margin": [0, 18, 1, -10],
+      "content_margin": [0, 0, 1, 0],
     },
     {
       "class": "sidebar_tree",
@@ -180,7 +179,7 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [20, 20, 20],
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.draw_center": true,
 
@@ -287,31 +286,13 @@
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
-        "fg": [112, 112, 112],
-        "shadow_color": [255, 255, 255, 0.25],
-        "shadow_offset": [0, 1]
-    },
-    {
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["file_medium"]}],
-        "fg": [192, 192, 192],
-        "shadow_color": [0, 0, 0, 0.12]
-    },
-    {
-        "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255]
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["selected", "file_light"]}],
-        "fg": [50, 50, 50]
-    },
-    {
-        "class": "tab_label",
         "attributes": ["transient"],
-        "font.italic": true
+        "fg": [128, 128, 128]
     },
     {
         "class": "tab_close_button",
@@ -322,17 +303,12 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
-        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 0.2, "speed": 4.0, "interpolation": "smoothstep" },
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
-    },
-    {
-        "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
-        "layer0.texture": "Framer Sublime/common/dark/tab_close.png",
     },
     {
         "class": "tab_close_button",
@@ -621,7 +597,7 @@
     {
         "class": "scroll_area_control",
         "parents": [{"class": "sidebar_container"}],
-        "content_margin": [0, 10, 0, 10]
+        "content_margin": [0, 0, 0, 10]
     },
     {
         "class": "scroll_bar_control",
@@ -647,21 +623,11 @@
         "content_margin": [4, 4, 3, 4]
     },
     {
-        "class": "scroll_track_control",
-        "attributes": ["dark"],
-        "layer0.texture": "Framer Sublime/common/dark/scroll_bar.png",
-    },
-    {
         "class": "puck_control",
         "layer0.texture": "Framer Sublime/common/dark/scroll_puck.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [0, 12]
-    },
-    {
-        "class": "puck_control",
-        "attributes": ["dark"],
-        "layer0.texture": "Framer Sublime/common/dark/scroll_puck.png"
     },
     {
         "class": "scroll_corner_control",
@@ -676,20 +642,10 @@
         "content_margin": [4, 4, 4, 3]
     },
     {
-        "class": "scroll_track_control",
-        "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Framer Sublime/common/dark/scroll_bar_horiz.png",
-    },
-    {
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Framer Sublime/common/dark/scroll_puck_horiz.png",
         "content_margin": [12, 0]
-    },
-    {
-        "class": "puck_control",
-        "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Framer Sublime/common/dark/scroll_puck_horiz.png",
     },
     // Scroll Bars (Sidebar)
     {
