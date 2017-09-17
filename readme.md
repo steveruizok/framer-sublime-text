@@ -1,6 +1,6 @@
 # Framer Sublime Text Theme
 
-A Sublime Text 3 theme package based on (Framer)[http://www.framer.com]'s editor.
+A Sublime Text 3 theme package based on [Framer](http://www.framer.com)'s editor.
 
 It includes:
 * a UI theme
