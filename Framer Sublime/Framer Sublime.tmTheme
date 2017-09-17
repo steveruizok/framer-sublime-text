@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>@steveruizok</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>name</key>
+	<string>Framer</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+
+				<key>foreground</key>
+				<string>#505050</string>
+
+				<key>background</key>
+				<string>#1e1e1e</string>
+
+				<key>lineHighlight</key>
+				<string>#2D2D2D</string>
+
+				<key>caret</key>
+				<string>#5c92eb</string>
+
+
+				<key>invisibles</key>
+				<string>#3b3b3b</string>
+
+				<!-- Selection -->
+
+				<key>selection</key>
+				<string>#363636</string>
+
+				<key>selectionBorder</key>
+				<string>#363636</string>
+
+				<!-- Find -->
+
+				<key>highlight</key>
+				<string>#FFFFFF</string>
+
+				<key>findHighlight</key>
+				<string>#fefb00</string>
+
+				<!-- Misspellings -->
+
+				<key>misspelling</key>
+				<string>#ed5856</string>
+
+				<!-- brackets -->
+
+				<key>bracketsOptions</key>
+				<string>stippled_underline</string>
+
+				<key>bracketsForeground</key>
+				<string>#fefb00</string>
+
+				<key>bracketContentsOptions</key>
+				<string>stippled_underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#fefb00</string>
+
+				<!-- Tags -->
+				
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
+
+				<!-- Gutter -->
+
+				<key>gutterForeground</key>
+				<string>#444444</string>
+
+				<key>gutter</key>
+				<string>#1e1e1e</string>
+
+				<key>activeGuide</key>
+				<string>#3b3b3b</string>
+
+			</dict>
+		</dict>
+
+		<!-- Framer Specific -->
+
+		<!-- Grey -->
+
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#777777</string>
+			</dict>
+		</dict>
+
+		<!-- White -->
+
+		<dict>
+		  <key>name</key>
+		  <string>Text and Source Base Colors</string>
+		  <key>scope</key>
+		  <string>text, source</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#FFFFFF</string>
+		  </dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>White</string>
+			<key>scope</key>
+			<string>entity.name.function.coffee, support.function.coffee, variable.parameter.function.coffee, entity.other.inherited-class.coffee, entity.name.type.class.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<!-- Fuscia  -->
+
+		<dict>
+			<key>name</key>
+			<string>Fuscia</string>
+			<key>scope</key>
+			<string>storage.type.function.coffee,  keyword.operator.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff65b0</string>
+			</dict>
+		</dict>
+
+		<!-- Dark Blue -->
+
+		<dict>
+			<key>name</key>
+			<string>Dark Blue</string>
+			<key>scope</key>
+			<string>support.class.coffee, keyword.operator.new.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#22bbfd</string>
+			</dict>
+		</dict>
+
+		<!-- Light Blue -->
+
+		<dict>
+			<key>name</key>
+			<string>Light Blue</string>
+			<key>scope</key>
+			<string>framer.property, framer.instance</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#81ddfe</string>
+			</dict>
+		</dict>
+
+		<!-- Green -->
+
+		<dict>
+			<key>name</key>
+			<string>Orange</string>
+			<key>scope</key>
+			<string>string.quoted.double, punctuation.definition.string, framer.stringStart, framer.stringEnd, framer.string, framer.stringEscape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a5f575</string>
+			</dict>
+		</dict>
+
+		<!-- Pale Green -->
+
+		<dict>
+			<key>name</key>
+			<string>Orange</string>
+			<key>scope</key>
+			<string>framer.interpolationStart, framer.interpolationEnd, framer.interpolation, framer.interpolationEscape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ddffcc</string>
+			</dict>
+		</dict>
+
+		<!-- Purple -->
+
+		<dict>
+			<key>name</key>
+			<string>Purple</string>
+			<key>scope</key>
+			<string>meta.numeric.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a790fc</string>
+			</dict>
+		</dict>
+
+		<!-- Orange -->
+
+		<dict>
+			<key>name</key>
+			<string>Orange</string>
+			<key>scope</key>
+			<string>keyword.control.coffee, storage.type.class.coffee, keyword.control.inheritance.coffee, variable.language.coffee, constant.language.null.coffee, constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc333</string>
+			</dict>
+		</dict>
+
+
+	</array>
+</dict>
+</plist>
