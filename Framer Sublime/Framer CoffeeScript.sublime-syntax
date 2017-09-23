@@ -18,7 +18,6 @@ contexts:
       scope: meta.class.instance.constructor
       captures:
         1: keyword.operator.new.coffee
-        2: support.class.coffee
     - match: "'''"
       captures:
         0: punctuation.definition.string.begin.coffee

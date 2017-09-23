@@ -118,7 +118,7 @@
 			<key>name</key>
 			<string>White</string>
 			<key>scope</key>
-			<string>entity.name.function.coffee, support.function.coffee, variable.parameter.function.coffee, entity.other.inherited-class.coffee, entity.name.type.class.coffee</string>
+			<string>entity.name.function.coffee, support.function.coffee, variable.parameter.function.coffee, entity.other.inherited-class.coffee, entity.name.type.class.coffee, support.class.coffee</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -146,7 +146,7 @@
 			<key>name</key>
 			<string>Dark Blue</string>
 			<key>scope</key>
-			<string>support.class.coffee, keyword.operator.new.coffee</string>
+			<string>keyword.operator.new.coffee</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
