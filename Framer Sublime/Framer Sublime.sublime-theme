@@ -88,15 +88,17 @@
 		"layer0.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
 		"layer0.tint": [255, 255, 255],
 		"content_margin": [7, 7],
+		"hit_test_level": 1
 	},
 	{
 		"class": "close_button",
 		"attributes": ["hover"],
-		"layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+		"layer0.opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" }
 	},
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
+		"layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
 		"layer0.texture": "Framer Sublime/common/dark/open_file_dirty.png",
 	},
 	{
